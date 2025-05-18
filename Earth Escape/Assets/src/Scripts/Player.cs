@@ -3,8 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using Unity.VisualScripting;
-using UnityEditor.Animations;
 using UnityEngine;
+using UnityEngine.Animations;
 using UnityEngine.SocialPlatforms.Impl;
 using UnityEngine.UI;
 
@@ -22,7 +22,7 @@ public class Player : MonoBehaviour
         Jetpack
     }
 
-    public AnimatorController[] chars;
+    public RuntimeAnimatorController[] chars;
     public Sprite[] Defchars;
 
     public float movementSpeed = 10f;
